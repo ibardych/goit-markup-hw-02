@@ -62,6 +62,10 @@ header nav ul a {
 	font-weight: var(--title-font-weight);
 }
 
+header nav ul a.active {
+	color: var(--brand-color);
+}
+
 header .contacts {
 	display: flex;
 	flex-direction: row;
