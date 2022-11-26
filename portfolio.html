@@ -37,118 +37,178 @@
 		</header>
 
 		<main>
-			<section class="top-block">
-				<h1>Portfolio</h1>
-				<button type="button">Order Service</button>
-			</section>
-
-			<section class="block-centered features">
+			<h1 hidden>Portfolio</h1>
+			<div class="filter-buttons">
 				<ul>
 					<li>
-						<h3>Strategy</h3>
-						<p>
-							Our goal is to identify the business problem to walk away with the
-							perfect and creative solution.
-						</p>
+						<button
+							type="button"
+							data-filter="all"
+							class="filter-button active"
+						>
+							All
+						</button>
 					</li>
 					<li>
-						<h3>Punctuality</h3>
-						<p>
-							Bring the key message to the brand's audience for the best price
-							within the shortest possible time.
-						</p>
+						<button data-filter="website" class="filter-button">
+							Web Site
+						</button>
+					</li>
+					<li><button data-filter="app" class="filter-button">App</button></li>
+					<li>
+						<button data-filter="design" class="filter-button">Design</button>
 					</li>
 					<li>
-						<h3>Diligence</h3>
-						<p>
-							Research and confirm brands that present the strongest digital
-							growth opportunities and minimize risk.
-						</p>
-					</li>
-					<li>
-						<h3>Technologies</h3>
-						<p>
-							Design practice focused on digital experiences. We bring forth a
-							deep passion for problem-solving.
-						</p>
+						<button data-filter="marketing" class="filter-button">
+							Marketing
+						</button>
 					</li>
 				</ul>
-			</section>
+			</div>
 
-			<!-- What are we doing -->
-			<section class="block-centered what-are-we-doing">
-				<h2>What are we doing</h2>
-
+			<section class="project-cards block-centered">
 				<ul>
-					<li>
-						<img
-							width="370"
-							src="images/what-are-we-doing-1.jpg"
-							alt="website statistics"
-						/>
+					<li class="project-card" data-filter="app">
+						<a>
+							<div class="image-text-wrapper">
+								<img src="images/card-1.jpg" alt="App screenshots" />
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Banking App Interface Concept</h2>
+							<p>App</p>
+						</a>
 					</li>
-					<li>
-						<img
-							width="370"
-							src="images/what-are-we-doing-2.jpg"
-							alt="wahtsapp on smartphone, user interface"
-						/>
+					<li class="project-card" data-filter="marketing">
+						<a>
+							<div class="image-text-wrapper back-side">
+								<img src="images/card-2.jpg" alt="Marketing" />
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Cashless Payment</h2>
+							<p>Marketing</p>
+						</a>
 					</li>
-					<li>
-						<img
-							width="370"
-							src="images/what-are-we-doing-3.jpg"
-							alt="human holding smartphone in a hand"
-						/>
+					<li class="project-card" data-filter="app">
+						<a>
+							<div class="image-text-wrapper">
+								<img src="images/card-3.jpg" alt="Laptop and smartphone" />
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Meditation App</h2>
+							<p>App</p>
+						</a>
+					</li>
+					<li class="project-card" data-filter="marketing">
+						<a>
+							<div class="image-text-wrapper">
+								<img src="images/card-4.jpg" alt="Human driving in a car" />
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Taxi Service</h2>
+							<p>Marketing</p>
+						</a>
+					</li>
+					<li class="project-card" data-filter="design">
+						<a>
+							<div class="image-text-wrapper">
+								<img
+									src="images/card-5.jpg"
+									alt="Smartphone with app screenshots"
+								/>
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Screen Illustrations</h2>
+							<p>Design</p>
+						</a>
+					</li>
+					<li class="project-card" data-filter="marketing">
+						<a>
+							<div class="image-text-wrapper">
+								<img
+									src="images/card-6.jpg"
+									alt="Women with smartphone in a hand"
+								/>
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Online Courses</h2>
+							<p>Marketing</p>
+						</a>
+					</li>
+					<li class="project-card" data-filter="design">
+						<a>
+							<div class="image-text-wrapper">
+								<img src="images/card-7.jpg" alt="App screen design" />
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Instagram Stories Concept</h2>
+							<p>Design</p>
+						</a>
+					</li>
+					<li class="project-card" data-filter="website">
+						<a>
+							<div class="image-text-wrapper">
+								<img
+									src="images/card-8.jpg"
+									alt="Human walking with organic food in a bag"
+								/>
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Organic Food</h2>
+							<p>Web Site</p>
+						</a>
+					</li>
+					<li class="project-card" data-filter="website">
+						<a>
+							<div class="image-text-wrapper">
+								<img src="images/card-9.jpg" alt="Human makes coffe" />
+								<p>
+									14 Stylish and User-Friendly App Design Concepts · Task
+									Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+									· Cloud Storage App
+								</p>
+							</div>
+							<h2>Fresh Coffee</h2>
+							<p>Web Site</p>
+						</a>
 					</li>
 				</ul>
-			</section>
-
-			<!-- Our team -->
-			<section class="our-team">
-				<div class="block-centered">
-					<h2>Our Team</h2>
-
-					<ul class="our-team">
-						<li>
-							<img
-								width="270"
-								src="images/team-1.jpg"
-								alt="Фото Mark Guerrero"
-							/>
-							<p class="name">Mark Guerrero</p>
-							<div class="position">Product Designer</div>
-						</li>
-						<li>
-							<img width="270" src="images/team-2.jpg" alt="Фото Tom Ford" />
-							<p class="name">Tom Ford</p>
-							<div class="position">Frontend Developer</div>
-						</li>
-						<li>
-							<img
-								width="270"
-								src="images/team-3.jpg"
-								alt="Фото Camila Garcia"
-							/>
-							<p class="name">Camila Garcia</p>
-							<div class="position">Marketing</div>
-						</li>
-						<li>
-							<img
-								width="270"
-								src="images/team-4.jpg"
-								alt="Фото Daniel Wilson"
-							/>
-							<p class="name">Daniel Wilson</p>
-							<div class="position">UI Designer</div>
-						</li>
-					</ul>
-				</div>
 			</section>
 		</main>
 
 		<footer>
-			<section class="block-centered">
+			<div class="block-centered">
 				<div class="logo">
 					<a href="/" title="to home"><span>Web</span>Studio</a>
 				</div>
@@ -156,7 +216,9 @@
 					Increase the flow of customers and sales for your business with
 					digital marketing & growth solutions.
 				</p>
-			</section>
+			</div>
 		</footer>
+
+		<script src="js/main.js"></script>
 	</body>
 </html>
