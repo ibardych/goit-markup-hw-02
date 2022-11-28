@@ -10,7 +10,7 @@ for (let i = 0; i < filterButtons.length; i++) {
 }
 
 function myFunction(filter) {
-	const PorjectCards = document.querySelectorAll(".project-card");
+	const PorjectCards = document.querySelectorAll(".card");
 	for (let i = 0; i < PorjectCards.length; i++) {
 		if (
 			filter == PorjectCards[i].getAttribute("data-filter") ||
