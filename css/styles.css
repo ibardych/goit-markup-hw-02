@@ -4,7 +4,7 @@
   --navi-blue-color: #2e2f42;
   --cloud-color: #f4f4fd;
   --cornflower-color: #e7e9fc;
-  --fourth-color: #404bbf;
+  --active-color: #404bbf;
   --title-font-weight: 700;
   --main-padding: 20px;
   --main-content-width: 1168px;
@@ -94,6 +94,10 @@ header .contact-link {
   line-height: 1.5;
 }
 
+header .contact-link:hover {
+  color: var(--brand-color);
+}
+
 .logo a {
   font-size: 18px;
   font-weight: 800;
@@ -136,7 +140,7 @@ header .contact-link {
 }
 
 .top-block-order-button:focus {
-  background-color: var(--fourth-color);
+  background-color: var(--active-color);
 }
 
 h1 {
